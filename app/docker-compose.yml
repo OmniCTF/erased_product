@@ -1,0 +1,8 @@
+services:
+  erased-product:
+    build: .
+    ports:
+      - "1337:1337"
+    environment:
+      FLAG: "OmniCTF{linear_terms_hide_inside_the_product}"
+    restart: unless-stopped

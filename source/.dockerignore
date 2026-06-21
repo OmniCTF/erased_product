@@ -1,0 +1,9 @@
+.git
+.agents
+.codex
+flag.txt
+solve
+dist/challenge.json
+dist/generate.sage.py
+__pycache__
+*.pyc
